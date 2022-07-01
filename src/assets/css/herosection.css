@@ -1,0 +1,62 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 5px 0;
+  gap: 2em;
+}
+.hero-text {
+  flex-basis: 50%;
+}
+.heroimage {
+  flex-basis: 50%;
+  /* background-color: green; */
+}
+.heroimage img {
+  width: 100%;
+}
+.fast {
+  font-size: 4rem;
+}
+.herobut {
+  background: black;
+  border: 3px solid black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+.herobuttwo {
+  background: transparent;
+  border: 3px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+}
+.but {
+  display: flex;
+  gap: 0.5em;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  .fast {
+    font-size: 2rem;
+  }
+  .fastp{
+    font-size: 13px;
+  }
+  .but {
+    flex-direction: column;
+  }
+}

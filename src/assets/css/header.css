@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.NavBar{
+  background-color: #F6F6F6;
+}
+
+.nav-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 1em 0;
+ 
+ 
+}
+.logo h1{
+  font-size: 28.5px;
+}
+ul{
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+ul li{
+  font-size: 16px;
+  font-weight: 600;
+}
+.hamburger{
+  font-size: 26px;
+  font-weight: 600;
+}
+.navbut {
+  background:transparent; 
+  border: 3px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+.hero-bg{
+  background-color: #F6F6F6;
+}
+
+.hamburger{
+  display: none;
+}
+
+@media(max-width:768px){
+  .hamburger{
+    display: inline;
+  }
+  ul li, .navbut{
+    display: none;
+  }
+}
