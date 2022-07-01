@@ -5,7 +5,12 @@
   </nav> -->
   <router-view/>
 </template>
-import vue from "vue"
+ <script>
+ export default {
+  
+ }
+ </script>
+
 <style>
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
